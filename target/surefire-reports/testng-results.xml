@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8099" started-at="2021-06-22T20:54:46 IST" finished-at="2021-06-22T20:54:54 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8099" started-at="2021-06-22T20:54:46 IST" finished-at="2021-06-22T20:54:54 IST">
+      <class name="percytest.SampleTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:percytest.SampleTest@10bdf5e5]" name="setup" is-config="true" duration-ms="2413" started-at="2021-06-22T20:54:46 IST" finished-at="2021-06-22T20:54:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:percytest.SampleTest@10bdf5e5]" name="test" duration-ms="5564" started-at="2021-06-22T20:54:48 IST" finished-at="2021-06-22T20:54:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:percytest.SampleTest@10bdf5e5]" name="teardown" is-config="true" duration-ms="92" started-at="2021-06-22T20:54:54 IST" finished-at="2021-06-22T20:54:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- percytest.SampleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
