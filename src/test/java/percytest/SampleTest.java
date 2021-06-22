@@ -22,7 +22,9 @@ public class SampleTest {
 	
 	@BeforeMethod
 	public void setup() {
-	    System.setProperty("webdriver.chrome.driver", "/Users/bhagyesh/Desktop/ChromeDriver/chromedriver");
+
+	
+	    System.setProperty("webdriver.chrome.driver", "Path of Chrome Driver");
 	    
 	    ChromeOptions options = new ChromeOptions();
 	    
