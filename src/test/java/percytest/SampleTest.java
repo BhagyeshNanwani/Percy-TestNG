@@ -22,13 +22,15 @@ public class SampleTest {
 	
 	@BeforeMethod
 	public void setup() {
+		
 	    System.setProperty("webdriver.chrome.driver", "/Users/bhagyesh/Desktop/ChromeDriver/chromedriver");
 	    
 	    ChromeOptions options = new ChromeOptions();
 	    
 	    driver = new ChromeDriver(options);
 	    
-	    percy = new Percy(driver);
+	    percy = new Percy(driver);   
+	    
 	}
 	 
 	 
@@ -38,7 +40,9 @@ public class SampleTest {
 
 		driver.get("https://www.google.com/");
 		
-		percy.snapshot("Google");
+		percy.snapshot("HomePage");
+		
+		//percy.snapshot("HomePage", null ,null, false , "input[name='btnK'] { visibility: hidden }");
 		
 		WebElement searchbar = driver.findElement(By.name("q"));
 		
@@ -47,7 +51,6 @@ public class SampleTest {
 		searchbar.sendKeys(Keys.ENTER);		
 		
 		percy.snapshot("BrowserStack - Google Search");
-		
 
 	}
 	

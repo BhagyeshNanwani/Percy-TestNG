@@ -1,0 +1,6 @@
+version: 1
+snapshot:
+  percy-css: | 
+    input[name='btnK'], input[class='RNmpXc'] { 
+      display: none; 
+    }
