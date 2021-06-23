@@ -22,7 +22,6 @@ public class SampleTest {
 	
 	@BeforeMethod
 	public void setup() {
-		
 	    System.setProperty("webdriver.chrome.driver", "/Users/bhagyesh/Desktop/ChromeDriver/chromedriver");
 	    
 	    ChromeOptions options = new ChromeOptions();
@@ -57,7 +56,7 @@ public class SampleTest {
 	
 	
 	@AfterMethod
-    public void teardown() {
+    	public void teardown() {
 		
         driver.quit();
         
